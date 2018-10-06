@@ -1,0 +1,31 @@
+{
+  "name": "SamReactBoilerplate",
+  "version": "1.0.0",
+  "description": "SamReactBoilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "pack": "webpack --mode development --config ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "superagent": "^4.0.0-beta.5",
+    "webpack": "^4.19.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
